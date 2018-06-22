@@ -5,7 +5,7 @@ export default {
 }
 
 async function fetchBeers() {
-    const response = await axios.get('/beers')
+    const response = await axios.get('/beer')
     const beers = response.data
     return beers
 }
